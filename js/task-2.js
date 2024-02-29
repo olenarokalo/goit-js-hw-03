@@ -1,5 +1,5 @@
 function makeArray(firstArray, secondArray, maxLength) {
-  const botharrArreysLendth = firstArray.length + secondArray.length;
+
   let finalArray = [];
   const result = firstArray.concat(secondArray);
   if (result.length <= maxLength) {
